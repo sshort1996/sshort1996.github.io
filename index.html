@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">      
     <style>
         body {
-          background-image: url("assets/background.jpg");
-          background-repeat: no-repeat;
-          background-size: cover;
+            background-image: url("assets/background.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
-      </style>      
+      
+        html {
+           height: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+      </style>
+            
     <title>Software Developer Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,7 +58,7 @@
       <section id="about">
         <h2>About Me</h2>
         <p>Hi, my name is Shane Short and I'm a data engineer originally from Kildare, Ireland 
-            but currently based in Perth, WA. My focus professionally has been in data warehouse 
+            currently based in Perth, WA. My focus professionally has been in data warehouse 
             development, ETL, and test automation, however I enjoy exploring many areas of 
             software engineering in my own time. A far from exhaustive list being lightweight game 
             development, cryptography, machine learning, and parallel computing for numerical analysis. 
